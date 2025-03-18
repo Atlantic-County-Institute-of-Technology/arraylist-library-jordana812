@@ -1,3 +1,4 @@
+/*
 import java.util.Arraylist;
 import java.util.Collections;
 import java.util.Random;
@@ -77,11 +78,39 @@ public class Playlist {
             System.out.println("3. Add");
             System.out.println("4. Remove");
             System.out.println("5. Sort");
-            System.out.println("6. Sort");
-            System.out.println("5. Sort");
-            System.out.println("5. Sort");
+            System.out.println("6. Shuffle");
+            System.out.println("7. Find");
+            System.out.println("8. Exit");
+
+            int choice = Integer.parseInt(System.in.readLine());
+            switch (choice){
+                case 1:
+                    Playlist.playSong();
+                    break;
+                case 2:
+                    Playlist.skipSong();
+                    break;
+                case 3:
+                    System.out.println("Enter song name: ");
+                    String newSong = System.in.readLine();
+                    Playlist.addSong(newSong);
+                    break;
+                case 4:
+                    System.out.println("Remove song: ");
+                    String RemovedSong = System.in.readLine();
+                    break;
+                case 5:
+                    Playlist.sortSongs();
+                    break;
+                case 6:
+                    Playlist.shuffleSongs();
+                    break;
+                case 7:
+                    System.out.println("Find song: ");
+                    String targetSong = System.in.readLine();
+            }
 
         }
     }
 
-}
+}*/
