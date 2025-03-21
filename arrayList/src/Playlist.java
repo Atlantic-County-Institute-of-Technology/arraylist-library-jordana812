@@ -9,10 +9,12 @@ public class Playlist {
 
     public Playlist() {
         songs = new ArrayList<>(); //List of available songs to start with
-        songs.add("Song 1");
-        songs.add("Song 2");
-        songs.add("Song 3");
-        songs.add("Song 4");
+        songs.add("Runway");
+        songs.add("On The Radar");
+        songs.add("Hey Jane");
+        songs.add("American Wedding");
+        songs.add("Swim Good");
+        songs.add("Add Up My Love");
     }
 
     //adds a song to the playlist
